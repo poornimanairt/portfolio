@@ -1,0 +1,39 @@
+/* components/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex;
+  background-color: rgb(43, 40, 40);
+  padding: 1rem;
+  padding-right: 3rem;
+}
+
+.active {
+  color: yellow;
+}
+
+.active a:hover {
+  color: yellow;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem 2rem;
+}
+
+.menu li a {
+  text-decoration: none;
+
+  font-weight: 300;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: darkgray;
+}
