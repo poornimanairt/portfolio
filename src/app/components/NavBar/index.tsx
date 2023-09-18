@@ -10,10 +10,9 @@ const NavBar = () => {
 
   const paths = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Resume", path: "/resume" },
-    { name: "Portfolio", path: "/portfolio" },
-    { name: "Blog", path: "/blog" },
+    { name: "About", path: "/#aboutme" },
+    { name: "Projects", path: "/projects" },
+    { name: "Contact", path: "/contact" },
   ];
 
   return (
