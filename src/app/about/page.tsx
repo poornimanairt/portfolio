@@ -10,14 +10,7 @@ const about = () => {
           <Typography variant="h2" color="yellow">
             About Me
           </Typography>
-          <Typography variant="body1">
-            Hello there ! I'm Poornima Nair, a passionate and experienced
-            front-end developer with a Bachelor's degree in Computer Science and
-            Engineering. Over the past 2.5 years, I've been on an exhilarating
-            journey in the world of web development, where I've had the
-            privilege of crafting interactive and user-friendly web
-            applications.
-          </Typography>
+          <Typography variant="body1"></Typography>
         </Box>
       </Grid>
     </Grid>

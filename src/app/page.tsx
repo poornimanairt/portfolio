@@ -13,7 +13,12 @@ export default function Home() {
               Front End Developer
             </Typography>
             <Typography variant="body1">
-              (This portfolio is under construction, would you like to wait ?)
+              (This portfolio is under construction, would you like to wait
+              &nbsp;
+              <Link href="https://papertoilet.com/" color="yellow">
+                <u>here</u>
+              </Link>
+              ?)
             </Typography>
           </Box>
         </Grid>
